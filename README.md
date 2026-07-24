@@ -1,27 +1,46 @@
-# example-sv-titans — source corpus
+# Silicon Valley Titans — example slipbox
 
-Raw source texts for the **Silicon Valley Titans** example slipbox: writing by
-founder/operator/investor essayists, filtered to one theme — **building and
-running technology startups.**
+A [slipbox](../../README.md) built from the writing of people known for their
+ideas about **building and running technology startups** — founders, operators,
+and investors who wrote a lot: Paul Graham, Naval Ravikant, Marc Andreessen, Sam
+Altman, Peter Thiel, Ben Horowitz, Fred Wilson, Reid Hoffman, Chris Dixon, Balaji
+Srinivasan, Joel Spolsky, Patrick McKenzie, 37signals (Jason Fried / DHH), and
+Jeff Bezos.
 
-This repo holds only the sources. It is mounted as a git submodule at
-`examples/sv-titans/sources` in [slipboxmd/slipbox](https://github.com/slipboxmd/slipbox),
-which holds the roster, curation rubric, and the generated slipbox notes.
+It's a **thematic** corpus, not a complete-works archive: each author's writing is
+filtered down to the startup/operating material (founding, product, growth,
+hiring, management, fundraising, strategy, scaling) and their off-theme work is
+left out. See [`SOURCES.md`](./SOURCES.md) for the roster, sources, and the exact
+keep/cut rubric.
 
 ## Layout
 
-One folder per author. Web-fetched essays are markdown with frontmatter recording
-the origin URL; books and archives are PDFs.
+This repo **is** the slipbox — clone it and run `slipbox` inside it.
 
-## Status — partial
+- `.slipbox` — config + house style for this slipbox
+- `sources/` — the raw source texts, one folder per author
+- `references/`, `literature-notes/`, `permanent-notes/`, `maps/` — the generated
+  notes (populated by running the pipeline)
 
-Acquired: Paul Graham (173 topic-filtered essays), Naval Ravikant (Almanack),
-Marc Andreessen (pmarca archive), Jeff Bezos (shareholder letters), Sam Altman
-(7 essays). Nine more authors are still to be added — see `SOURCES.md` in the
-parent repo.
+It is mounted as a git submodule at `examples/sv-titans` in
+[slipboxmd/slipbox](https://github.com/slipboxmd/slipbox).
 
-## Attribution
+## Reproducing
 
-Texts are © their respective authors, included for study and to demonstrate the
-slipbox pipeline. See [NOTICE.md](./NOTICE.md). Rights holders: open an issue to
-request removal.
+```
+slipbox ingest sources/paul-graham/ds.md      # a text source
+slipbox ingest sources/jeff-bezos/shareholder-letters-1997-2020.pdf   # a PDF
+```
+
+Ingesting the web/PDF sources needs the M2 format extractors (pdftotext, pandoc,
+trafilatura). Run `slipbox doctor` to check your tools; see
+[`docs/FORMATS.md`](../../docs/FORMATS.md).
+
+## Attribution & copyright
+
+The texts in `sources/` are the property of their respective authors and are
+included here for study and to demonstrate the slipbox pipeline. Each file records
+its source URL. Nothing here is an original work of the corpus maintainers except
+the slipbox notes derived from these sources. See [`NOTICE.md`](./NOTICE.md) for
+per-author sources. If you are a rights holder and want your material removed, open
+an issue.
