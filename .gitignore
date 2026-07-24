@@ -4,3 +4,7 @@
 
 # Derived cleaned-text the harness generates for indexing (rebuildable from sources/)
 sources/extracted/
+
+# Explorer working copy + static export (derived)
+.slipbox-site/
+out/
