@@ -87,20 +87,20 @@ patio11, Ben Horowitz, Chris Dixon) are curated best-of, not full archives.
 
 | Author | Status |
 |--------|--------|
-| Paul Graham | ✅ 173 essays fetched (topic-filtered from 231) |
-| Naval Ravikant | ✅ Almanack PDF (focus notes on the Wealth material) |
-| Marc Andreessen | ✅ pmarca Blog Archives PDF |
-| Jeff Bezos | ✅ shareholder letters 1997–2020 PDF |
-| Sam Altman | ◑ 7 core essays fetched; Startup Playbook (multi-page site) still to pull |
-| Peter Thiel | ☐ CS183 — tumblr is JS-rendered; needs a markdown/PDF mirror |
-| Ben Horowitz | ☐ curated a16z best-of to select + fetch |
-| Fred Wilson | ☐ curated MBA Mondays + best-of to select + fetch |
-| Reid Hoffman | ☐ to select + fetch |
-| Chris Dixon | ☐ to select + fetch |
-| Balaji Srinivasan | ☐ startup essays to select + fetch |
-| Joel Spolsky | ☐ curated classics to select + fetch |
-| patio11 | ☐ curated classics to select + fetch |
-| 37signals | ☐ Getting Real chapters + SvN best-of |
+| Paul Graham | 173 essays fetched (topic-filtered from 231) |
+| Naval Ravikant | Almanack PDF (focus notes on the Wealth material) |
+| Marc Andreessen | pmarca Blog Archives PDF |
+| Jeff Bezos | shareholder letters 1997–2020 PDF |
+| Sam Altman | partial — 7 core essays fetched; Startup Playbook (multi-page site) still to pull |
+| Peter Thiel | todo — CS183 — tumblr is JS-rendered; needs a markdown/PDF mirror |
+| Ben Horowitz | todo — curated a16z best-of to select + fetch |
+| Fred Wilson | todo — curated MBA Mondays + best-of to select + fetch |
+| Reid Hoffman | todo — to select + fetch |
+| Chris Dixon | todo — to select + fetch |
+| Balaji Srinivasan | todo — startup essays to select + fetch |
+| Joel Spolsky | todo — curated classics to select + fetch |
+| patio11 | todo — curated classics to select + fetch |
+| 37signals | todo — Getting Real chapters + SvN best-of |
 
 The daily-bloggers (Horowitz, Wilson, Hoffman, Dixon, Balaji, Joel, patio11)
 expose only recent posts via feed/homepage; their on-theme canon is specific older
